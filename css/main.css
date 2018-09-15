@@ -1,65 +1,22 @@
 html {
-  background-color: #e7cfcd;
-  height: 100%;
-  margin: 0;
-}
-
-h1, h2, h3, h4 {
-
+  font-family: 'Pinyon Script', cursive;
 }
 
 p {
-
-  line-height: 1.8;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.social-icons {
-  width: 5px;
-  height: 5px;
-  margin-right: 5px;
+.i-btn {
+    transition: all .3s ease;
 }
 
-.social-icons:hover {
-  -webkit-transition: -webkit-transform .4s ease;
-  transition: transform .4s ease;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+.i-btn:focus,
+.i-btn:hover {
+  transform: scale(.9);
 }
 
-.body-text {
-  background-color: #fff;
-  padding: 2em;
-  margin: 2em;
-}
-
-@media only screen and (min-width: 38em) {
-
-  html {
-    background-size: 10%;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .body-text {
-    background-color: #fff;
-    padding: 6em;
-    margin: 6em;
-  }
-
-  .social-icons {
-    width: 60px;
-    height: 60px;
-    margin-right: .5em;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    background-size: 8%;
-  }
-
+.icons {
+  width: 10%;
+  margin: auto;
+  margin-bottom: 7rem;
 }
