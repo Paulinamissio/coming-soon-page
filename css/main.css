@@ -1,62 +1,65 @@
 html {
-  font-family: Georgia, serif;
+  background-color: #e7cfcd;
+  height: 100%;
+  margin: 0;
 }
 
-.content {
-  background-color: #495562;
-  color: #fff;
+h1, h2, h3, h4 {
+
 }
 
-.btn {
-  color: #fff;
-  border-color: #97a49b;
+p {
+
+  line-height: 1.8;
+}
+
+.social-icons {
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+}
+
+.social-icons:hover {
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.body-text {
+  background-color: #fff;
+  padding: 2em;
+  margin: 2em;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .btn-wrap {
-    text-align: right;
-  }
-
-  .text {
-    margin-bottom: 1em;
-  }
-
-  .btn {
-    margin-bottom: 0;
+  html {
+    background-size: 10%;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  main {
-    position: relative;
+  .body-text {
+    background-color: #fff;
+    padding: 6em;
+    margin: 6em;
   }
 
-  .content-wrap {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+  .social-icons {
+    width: 60px;
+    height: 60px;
+    margin-right: .5em;
   }
 
-  .content {
-    background-color: rgba(73, 85, 98, 0);
-  }
+}
 
-  .text {
-    margin-bottom: 0;
-  }
+@media only screen and (min-width: 90em) {
 
-  .yotta {
-    margin-bottom: 0;
-  }
-
-  .btn {
-    margin-bottom: .5em;
-    border-color: #efefef;
+  html {
+    background-size: 8%;
   }
 
 }
